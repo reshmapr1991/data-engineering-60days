@@ -1,0 +1,10 @@
+words=[
+"jenny",
+"vihaan",
+"saish",
+"reshu",
+"jai",
+"aeroplane",
+"beautiful",
+"heart"
+]

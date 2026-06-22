@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Data files (too large for Git)
+*.csv
+*.parquet
+
+# IDE files
+.idea/
+*.iml
+
+# Logs
+*.log
