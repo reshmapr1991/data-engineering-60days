@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: salesdb
+    schema: public
+    tables:
+      - name: employees1
+      - name: departments
+      - name: user_logins

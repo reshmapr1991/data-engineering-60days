@@ -1,4 +1,4 @@
-s = "malayalam"
+s = "string"
 i, j = 0,len(s) - 1
 is_palindrome = True
 

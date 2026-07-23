@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: employees_cleaned
+    description: "Cleaned employee data with grades"
+    columns:
+      - name: emp_id
+        description: "Unique employee ID"
+        tests:
+          - unique
+          - not_null
+      - name: salary
+        description: "Employee salary"
+        tests:
+          - not_null
+      - name: salary_grade
+        description: "Salary grade A/B/C/D"
+        tests:
+          - accepted_values:
+              values: ['Grade A', 'Grade B', 'Grade C', 'Grade D']
+
+  - name: dept_summary
+    description: "Department level salary summary"
+    columns:
+      - name: department
+        tests:
+          - unique
+          - not_null
+
+  - name: top_earners
+    description: "Top earner per department"
+    columns:
+      - name: name
+        tests:
+          - not_null

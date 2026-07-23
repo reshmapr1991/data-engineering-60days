@@ -14,3 +14,5 @@ __pycache__/
 
 # Logs
 *.log
+airflow_practice/logs/
+airflow_practice/dags/__pycache__/

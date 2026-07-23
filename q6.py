@@ -11,12 +11,12 @@ def generate_test_q6():
     return df
 df = generate_test_q6()
 
-# df_purchase = df.filter(df.Action == "Purchase")
-# print(df_purchase)
+df_purchase = df.filter(df['Action']== "Purchase")
+print(df_purchase)
 
-#df_selected = df.select("User_ID", "Action")
-
-#df_sorted = df.orderBy("Timestamp")
+# df_selected = df.select("User_ID", "Action")
+#
+# df_sorted = df.orderBy("Timestamp")
 
 
 df_action_count = (
